@@ -1,0 +1,4 @@
+STORAGE RELATED :
+              
+              1=gsutil mb gs://<BUCKET_NAME> = TO make a bucket using cloud shell 
+
