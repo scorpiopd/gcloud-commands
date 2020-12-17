@@ -2,9 +2,35 @@ Jenkins is an open-source continuous integration environment.
 You can define jobs in Jenkins that can perform tasks such as running a scheduled build of software and backing up data.
 
 
+The service you are using, Marketplace, is part of Google Cloud. The Jenkins template is developed and maintained by an ecosystem partner named Bitnami.
+
+1]GO to MARKETPLACE 
+
+2Launch Jenkins
+3]Verify the deployment, accept the terms and services and click Deploy.
+
+4]You can watch the status as tasks are being performed. Deployment Manager is acquiring a virtual machine instance and installing and configuring software for you. 
+You will see jenkins-1 has been deployed when the process is complete.
+
+5]Deployment Manager is a Google Cloud service 
+that uses templates written in a combination of YAML, python, and Jinja2 to automate the allocation of Google Cloud resources and perform setup tasks.
+ Behind the scenes a virtual machine has been created. A startup script was used to install and configure software, & network Firewall Rules were created to allow traffic to the service.
+ 
+ 
+ 
+ 6]View the deployment and SSH to the VM
+ 
+ 
+Shut down and restart the services
+
+7]In the SSH window, enter the following command to shut down all the running services:
+
+-sudo /opt/bitnami/ctlscript.sh stop        ........Refresh the browser window for the Jenkins UI. You will no longer see the Jenkins interface because the service was shut down.
 
 
+8]In the SSH window, enter the following command to restart the services:
 
+-sudo /opt/bitnami/ctlscript.sh restart
 
 
 
