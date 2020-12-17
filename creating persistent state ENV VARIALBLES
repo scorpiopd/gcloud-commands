@@ -2,3 +2,10 @@
 Create an environment variable and replace [YOUR_REGION] with the region you selected in the previous step:
 
 INFRACLASS_REGION=asia-east2               //use environment variables like this in gcloud commands to reduce the opportunities for typos 
+
+
+
+
+
+Every time you close Cloud Shell and reopen it, a new VM is allocated, and the environment variable you just set disappears. 
+create a file to set the value so that you won't have to enter the command each time Cloud Shell is recycled.
