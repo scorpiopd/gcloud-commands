@@ -13,6 +13,10 @@ STORAGE RELATED :
 
 
 
+GENERAL:
+        
+          1]gcloud compute regions list                     ........list available regions
+
 
 
 
