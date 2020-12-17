@@ -1,1 +1,4 @@
 
+Create an environment variable and replace [YOUR_REGION] with the region you selected in the previous step:
+
+INFRACLASS_REGION=asia-east2               //use environment variables like this in gcloud commands to reduce the opportunities for typos 
