@@ -16,6 +16,11 @@ STORAGE RELATED :
 GENERAL:
         
           1]gcloud compute regions list                     ........list available regions
+          
+          
+          
+          2]gcloud config set project projectname            ........ to change project in the commandline  
+
 
 
 
