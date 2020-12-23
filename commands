@@ -22,6 +22,8 @@ GENERAL:
           2]gcloud config set project projectname            ........ to change project in the commandline  
 
 
+          3]gcloud compute addresses list                   ........ list all the project ips 
+
 
 
 
