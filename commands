@@ -23,8 +23,13 @@ GENERAL:
 
 
           3]gcloud compute addresses list                   ........ list all the project ips 
+          
+          4]gcloud config get-value compute/zone            ........  To see what your default region and zone settings are
+            gcloud config get-value compute/region
+            
+            
 
-
+          5]gcloud compute project-info describe --project <your_project_ID>    .......... get info about the project 
 
 
 
