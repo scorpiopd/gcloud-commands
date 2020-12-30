@@ -37,6 +37,10 @@ GENERAL:
 
 
 
+SQL :
+      1] gcloud sql connect  qwiklabs-demo --user=root        .............. connect to your SQL instance via cloud shell
+
+
 
 
 
