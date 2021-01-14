@@ -34,7 +34,14 @@ GENERAL:
 
 
           6]gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone us-central1-a  .......creating vm instances via cloud shell
+          
+          7]free =                                     ...........see information about unused and used memory and swap space on custom vm 
+          
+          8]sudo dmidecode -t 17=                      ...........  see details about the RAM installed on your VM
+          
+          9]nproc                                       ...........To verify the number of processors
 
+          10]lscpu                                     ............  details about the CPUs installed on your VM
 
 
 SQL :
