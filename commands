@@ -42,6 +42,9 @@ GENERAL:
           9]nproc                                       ...........To verify the number of processors
 
           10]lscpu                                     ............  details about the CPUs installed on your VM
+          
+          
+          11]sed -i -e 's/webapp2/webapp22/' main.py    ............ directly change content of the file without opening or using nano vim
 
 
 SQL :
